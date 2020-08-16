@@ -16,7 +16,7 @@ export default {
   methods: {
     getData(){
       const key = '3b6de3748556f5440a632467bbfbc6e2';
-      const url = 'http://api.openweathermap.org/data/2.5/weather?q=';
+      const url = 'https://api.openweathermap.org/data/2.5/weather?q=';
 
     //   axios.get(url+ this.search + '&appid='+key)
     axios.get(url+this.search+"&?units=metric&APPID="+key)
