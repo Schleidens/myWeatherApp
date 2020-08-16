@@ -44,7 +44,7 @@ export default {
         </div>
     </header>
     <div class="box">
-        <div class="temp">{{temp}}<sup>oc</sup></div>
+        <div class="temp">{{temp}}<sup v-if="temp">oc</sup></div>
         <div class="pose">
             <img src="../assets/pose.svg" alt="my pose">
         </div>
